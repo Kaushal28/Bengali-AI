@@ -156,7 +156,7 @@ sklearn==0.0
 smmap2==2.0.5
 snowcomp==2.0
 sonar-uploader==0.0.1
-splunk-sdk==1.6.5
+splunk-sdk==1.6.6
 sqlparse==0.3.0
 terminado==0.8.1
 testpath==0.3.1
