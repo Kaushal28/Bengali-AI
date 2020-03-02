@@ -9,6 +9,9 @@
   - 5-fold Cross Validation
   - 30 epochs for each fold
   - Batch size: 256
+
+TODO:
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/trainedmodeleffnet
   
 ## Experiment #2:
 
@@ -19,9 +22,10 @@
   - 5-fold Cross Validation
   - 40 epochs for each fold
   - Batch size: 256
+  
+TODO:
+  - Commit Pretrained Models
 
-TODOs:
-  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/trainedmodeleffnet
   
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
