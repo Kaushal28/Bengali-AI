@@ -3,7 +3,7 @@
 ### A possible approach for Kaggle Competition: https://www.kaggle.com/c/bengaliai-cv19
 
 Used Models:
-  - Pretrained EfficientNet-B1
+  - Pretrained EfficientNet-B1 (Achieves 0.9619 on public LB)
   - Pretrained ResNet-34
   
 Image Augmentation techniques: 
@@ -18,7 +18,7 @@ Image Augmentation techniques:
   - Batch size: 256
 
 TODOs:
-  - Commit Pretrained Models
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/trainedmodeleffnet
   
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
