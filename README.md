@@ -1,20 +1,25 @@
 # Bengali-AI
 
-### A possible approach for Kaggle Competition: https://www.kaggle.com/c/bengaliai-cv19
+## A possible approach for Kaggle Competition: https://www.kaggle.com/c/bengaliai-cv19
 
-Used Models:
-  - Pretrained EfficientNet-B1 (Achieves 0.9619 on public LB)
-  - Pretrained ResNet-34
-  
-Image Augmentation techniques: 
-  - GridMask
-  - AugMix (TODO)
-  
- Other settings:
- 
+## Experiment #1 (0.9619 on public LB):
+
+- Used Model: Pretrained EfficientNet-B1
+- Image Augmentation technique(s): GridMask
+- Other settings:
   - Image size 128 x 128
   - 5-fold Cross Validation
   - 30 epochs for each fold
+  - Batch size: 256
+  
+## Experiment #2:
+
+- Used Model: Pretrained EfficientNet-B1
+- Image Augmentation technique(s): None
+- Other settings:
+  - Image size 128 x 128
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
   - Batch size: 256
 
 TODOs:
