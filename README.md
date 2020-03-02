@@ -1,4 +1,4 @@
-# Bengali-AI: Different approaches
+# [Bengali.AI](https://www.kaggle.com/c/bengaliai-cv19): Different approaches
 
 ## Experiment #1 (0.9619 on public LB):
 
