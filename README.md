@@ -13,7 +13,7 @@
 TODO:
   - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/trainedmodeleffnet
   
-## Experiment #2:
+## Experiment #2 (0.9528 on public LB):
 
 - Used Model: Pretrained EfficientNet-B1
 - Image Augmentation technique(s): None
