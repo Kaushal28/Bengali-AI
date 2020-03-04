@@ -26,7 +26,7 @@ TODO:
 TODO:
   - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnetnoaug
   
-## Experiment #3:
+## Experiment #3: (0.9547 on public LB)
 
 - Used Model: Pretrained EfficientNet-B1
 - Image Augmentation technique(s): GridMask + AugMix
@@ -37,7 +37,7 @@ TODO:
   - Batch size: 256
   
 TODO:
-  - Commit Pretrained Models
+  - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnet40epochsgridmaskaugmix
   
   
 References:
