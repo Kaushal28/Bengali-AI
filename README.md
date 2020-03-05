@@ -39,7 +39,19 @@ TODO:
 TODO:
   - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnet40epochsgridmaskaugmix
   
+## Experiment #4:
+
+- Used Model: Pretrained ResNet34
+- Image Augmentation technique(s): GridMask
+- Other settings:
+  - Image size 137 x 236
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 256
   
+TODO:
+  - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/resnet34originalsize
+
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
   - https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
