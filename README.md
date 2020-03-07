@@ -1,25 +1,57 @@
-# Bengali-AI
+# [Bengali.AI](https://www.kaggle.com/c/bengaliai-cv19): Different approaches
 
-### A possible approach for Kaggle Competition: https://www.kaggle.com/c/bengaliai-cv19
+## Experiment #1 (0.9619 on public LB):
 
-Used Models:
-  - Pretrained EfficientNet-B1
-  - Pretrained ResNet-34
-  
-Image Augmentation techniques: 
-  - GridMask
-  - AugMix (TODO)
-  
- Other settings:
- 
+- Used Model: Pretrained EfficientNet-B1
+- Image Augmentation technique(s): GridMask
+- Other settings:
   - Image size 128 x 128
   - 5-fold Cross Validation
   - 30 epochs for each fold
   - Batch size: 256
 
-TODOs:
-  - Commit Pretrained Models
+TODO:
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/trainedmodeleffnet
   
+## Experiment #2 (0.9528 on public LB):
+
+- Used Model: Pretrained EfficientNet-B1
+- Image Augmentation technique(s): None
+- Other settings:
+  - Image size 128 x 128
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 256
+  
+TODO:
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnetnoaug
+  
+## Experiment #3: (0.9547 on public LB)
+
+- Used Model: Pretrained EfficientNet-B1
+- Image Augmentation technique(s): GridMask + AugMix
+- Other settings:
+  - Image size 128 x 128
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 256
+  
+TODO:
+  - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnet40epochsgridmaskaugmix
+  
+## Experiment #4: (0.9650 on public LB)
+
+- Used Model: Pretrained ResNet34
+- Image Augmentation technique(s): GridMask
+- Other settings:
+  - Image size 137 x 236 (original image size)
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 256
+  
+TODO:
+  - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/resnet34originalsize
+
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
   - https://www.kaggle.com/kaushal2896/bengali-graphemes-starter-eda-multi-output-cnn
