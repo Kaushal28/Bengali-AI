@@ -3,23 +3,6 @@ import torch.nn as nn
 from torch.nn import functional as F
 from efficientnet_pytorch import EfficientNet
 
-def custom_load_pretrained_weights(model, model_name, load_fc=True, advprop=False):
-    """ Loads pretrained weights, and downloads if loading for the first time. """
-    # AutoAugment or Advprop (different preprocessing)
-    url_map_ = url_map_advprop if advprop else url_map
-    state_dict = torch.load('efficientnet-b1-dbc7070a.pth', map_location='cpu')
-    if load_fc:
-        model.load_state_dict(state_dict)
-    else:
-        state_dict.pop('_fc.weight')
-        state_dict.pop('_fc.bias')
-        res = model.load_state_dict(state_dict, strict=False)
-        assert set(res.missing_keys) == set(['_fc.weight', '_fc.bias']), 'issue loading pretrained weights'
-    print('Loaded pretrained weights for {}'.format(model_name))
-
-from efficientnet_pytorch import utils
-utils.load_pretrained_weights.__code__ = custom_load_pretrained_weights.__code__
-
 
 class ResNet34(nn.Module):
     def __init__(self, pretrained):
@@ -48,7 +31,7 @@ class EfficientNetWrapper(nn.Module):
         super(EfficientNetWrapper, self).__init__()
         
         # Load imagenet pre-trained model 
-        self.effNet = EfficientNet.from_pretrained('efficientnet-b1', in_channels=3)
+        self.effNet = EfficientNet.from_pretrained('efficientnet-b3', in_channels=3)
         
         # Appdend output layers based on our date
         self.fc_root = nn.Linear(in_features=1000, out_features=168)
