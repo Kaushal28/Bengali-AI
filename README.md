@@ -51,6 +51,21 @@ TODO:
   
 TODO:
   - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/resnet34originalsize
+  
+ ## Experiment #5:
+
+- Used Model: Pretrained EfficientNet-B3
+- Image Augmentation technique(s): GridMask
+- Other settings:
+  - Image size 137 x 236 (original image size)
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 128
+  
+TODO:
+  - Commit Pretrained Models
+  
+  
 
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
