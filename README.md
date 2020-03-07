@@ -39,12 +39,12 @@ TODO:
 TODO:
   - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/efficientnet40epochsgridmaskaugmix
   
-## Experiment #4:
+## Experiment #4: (0.9650 on public LB)
 
 - Used Model: Pretrained ResNet34
 - Image Augmentation technique(s): GridMask
 - Other settings:
-  - Image size 137 x 236
+  - Image size 137 x 236 (original image size)
   - 5-fold Cross Validation
   - 40 epochs for each fold
   - Batch size: 256
