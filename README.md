@@ -52,7 +52,7 @@ TODO:
 TODO:
   - ~~Commit Pretrained Models~~ Link to kaggle dataset: https://www.kaggle.com/kaushal2896/resnet34originalsize
   
- ## Experiment #5:
+ ## Experiment #5: (0.9676 on public LB)
 
 - Used Model: Pretrained EfficientNet-B3
 - Image Augmentation technique(s): GridMask
@@ -63,7 +63,7 @@ TODO:
   - Batch size: 128
   
 TODO:
-  - Commit Pretrained Models
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/bengaliaieffnetb3
   
   
 
