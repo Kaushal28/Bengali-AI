@@ -65,7 +65,7 @@ TODO:
 TODO:
   - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/bengaliaieffnetb3
  
- ## Experiment #6:
+ ## Experiment #6: (0.9687 on public LB)
 
 - Used Model: Pretrained EfficientNet-B3 + Pretrained ResNet-34 \[Ensemble\]
 - Image Augmentation technique(s): GridMask
