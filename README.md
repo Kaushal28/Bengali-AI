@@ -84,6 +84,9 @@ TODO:
   - 5-fold Cross Validation
   - 40 epochs for each fold
   - Batch size: 128
+  
+TODO: 
+  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/effnetb3-cutmix-mixup
 
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
