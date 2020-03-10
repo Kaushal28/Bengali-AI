@@ -75,18 +75,25 @@ TODO:
   - 40 epochs for each fold
   - Batch size: 128
   
- ## Experiment #7:
+ ## Experiment #7: (0.9644 on public LB)
 
 - Used Model: Pretrained EfficientNet-B3
-- Image Augmentation technique(s): CutMix, MixUp
+- Image Augmentation technique(s): CutMix(30%), MixUp(30%)
 - Other settings:
   - Image size 137 x 236 (original image size)
   - 5-fold Cross Validation
   - 40 epochs for each fold
   - Batch size: 128
   
-TODO: 
-  - ~~Commit Pretrained Models~~ Link to Kaggle dataset: https://www.kaggle.com/kaushal2896/effnetb3-cutmix-mixup
+ ## Experiment #8: 
+
+- Used Model: Pretrained EfficientNet-B3 + Pretrained ResNet-34 \[Ensemble\]
+- Image Augmentation technique(s): GridMask + CutMix + MixUp
+- Other settings:
+  - Image size 137 x 236 (original image size)
+  - 5-fold Cross Validation
+  - 40 epochs for each fold
+  - Batch size: 128
 
 References:
   - https://www.youtube.com/watch?v=8J5Q4mEzRtY (Part1 and Part2)
