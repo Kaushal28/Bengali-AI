@@ -8,7 +8,7 @@ backcall==0.1.0
 bcrypt==3.1.6
 beautifulsoup4==4.6.3
 behave==1.2.6
-bleach==2.1.3
+bleach==3.1.4
 cachetools==2.1.0
 cefevent==0.4.8
 certifi==2018.4.16
