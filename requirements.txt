@@ -20,7 +20,7 @@ coverage==4.5.4
 cryptography==2.3.1
 cycler==0.10.0
 decorator==4.3.0
-Django==2.2.5
+Django==2.2.18
 docker==4.2.0
 docutils==0.15.1
 entrypoints==0.2.3
