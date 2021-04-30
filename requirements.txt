@@ -141,7 +141,7 @@ requests==2.22.0
 requests-oauthlib==1.2.0
 requests-toolbelt==0.9.1
 responses==0.10.7
-rsa==3.4.2
+rsa==4.7
 runcmd==0.0.2
 schedule==0.6.0
 scikit-image==0.16.2
