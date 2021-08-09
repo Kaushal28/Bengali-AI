@@ -130,7 +130,7 @@ python-slugify==4.0.0
 PyTweening==1.0.3
 pytz==2018.4
 PyWavelets==1.1.1
-pywin32==224
+pywin32==301
 pywinpty==0.5.4
 PyYAML==5.3
 pyzmq==17.0.0
