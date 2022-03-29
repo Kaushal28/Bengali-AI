@@ -88,7 +88,7 @@ packaging==19.2
 pafy==0.5.4
 pandas==0.23.0
 pandocfilters==1.4.2
-paramiko==2.4.2
+paramiko==2.10.1
 parse==1.14.0
 parse-type==0.5.2
 parso==0.2.1
